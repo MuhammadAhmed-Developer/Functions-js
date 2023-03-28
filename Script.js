@@ -19,6 +19,7 @@
 //     console.log("Enter a valid value!")
 // }
 
+// ---------------------------------------------------------------------------------------------------------
 
 // 2. Write a js program to find maximum between three numbers.
 
@@ -44,6 +45,7 @@
 //     console.log("Enter a valid value! Please Enter only Numbers")
 // }
 
+// ---------------------------------------------------------------------------------------------------------
 
 // 3. Write a js program to check whether a number is negative, positive or zero.
 
@@ -67,7 +69,7 @@
 // else{
 //    console.log("Enter Valid Value! Please Enter Temp in Numbers")
 // }
-
+// ---------------------------------------------------------------------------------------------------------
 
 // 4. Write a js program to check whether a number is divisible by 5 and 11 or not
 
@@ -80,8 +82,26 @@
 // }else{
 //   console.log(`Your Enter Number "${weatherNumber}"  is Not Divisible by 5 OR 11`)
 // }
+// ---------------------------------------------------------------------------------------------------------
 
 
 // 5. Write a js program to check whether a number is even or odd.
 
-var weatherEvenOrOdd =+ prompt('Enter Temperature')
+// var weatherEvenOrOdd =+ prompt('Enter Temperature')
+// if(weatherEvenOrOdd%2==0){
+//    console.log(`Your Enter Number ${weatherEvenOrOdd} is Even Number`)
+// }else{
+//   console.log(`Your Enter Number ${weatherEvenOrOdd} is Odd Number`)
+// }
+
+// ---------------------------------------------------------------------------------------------------------
+
+
+// 6. Write a js program to check whether a year is leap year or not.
+
+ var weatherLeapOrNot =+ prompt('Enter Year To Check It is Leap OR NOT')
+ if(weatherLeapOrNot%4==0){
+   console.log(`Year ${weatherLeapOrNot} is a Leap Year`)
+ }else{
+  console.log(`Year ${weatherLeapOrNot} is  Not a Leap Year`)
+ }
