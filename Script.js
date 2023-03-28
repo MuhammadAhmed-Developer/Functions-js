@@ -119,5 +119,39 @@
 
  // ---------------------------------------------------------------------------------------------------------
 
- 
+//  8. Write a js program to input any alphabet and check whether it is vowel or consonant.
 
+// function vowelOrConsonant(alphabet){
+//   var result = alphabet 
+//  if(result == 'a' || result == 'e' || result == 'i' || result == 'o' || result == 'u'){
+//     console.log(`"${result}" is a Vowel`)
+//  }else{
+//    console.log(`${result} is a Consonant`)
+//  }
+// }
+// var checkVowelOrConsonant = prompt('Enter Alphabet to Check it is Vowel OR Consonant')
+// vowelOrConsonant(checkVowelOrConsonant)
+
+ // ---------------------------------------------------------------------------------------------------------
+
+//  9. Write a js program to input any character and check whether it is alphabet, digit or special character.
+
+ function checkAlphabetDigitORSymbol(character){
+
+  var result = character
+  if(result >= 'a' && result <='z' || result >= 'A' && result <='Z'){
+    console.log(`"${result}" is a Alphabet`)
+  }
+  else if(result >= -100){
+     console.log(`"${result}" is a Number`)
+  }else{
+    console.log(`"${result}" is a special character`)
+  }
+
+
+ }
+
+ var userCharacter = prompt('Enter a character to Check it is Alphabet, Number or Symbol')
+ checkAlphabetDigitORSymbol(userCharacter)
+
+//  ---------------------------------------------------------------------------------------------------------
