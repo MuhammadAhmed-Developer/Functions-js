@@ -136,22 +136,41 @@
 
 //  9. Write a js program to input any character and check whether it is alphabet, digit or special character.
 
- function checkAlphabetDigitORSymbol(character){
+//  function checkAlphabetDigitORSymbol(character){
 
-  var result = character
-  if(result >= 'a' && result <='z' || result >= 'A' && result <='Z'){
-    console.log(`"${result}" is a Alphabet`)
-  }
-  else if(result >= -100){
-     console.log(`"${result}" is a Number`)
-  }else{
-    console.log(`"${result}" is a special character`)
-  }
+//   var result = character
+//   if(result >= 'a' && result <='z' || result >= 'A' && result <='Z'){
+//     console.log(`"${result}" is a Alphabet`)
+//   }
+//   else if(result >= -100){
+//      console.log(`"${result}" is a Number`)
+//   }else{
+//     console.log(`"${result}" is a special character`)
+//   }
 
 
- }
+//  }
 
- var userCharacter = prompt('Enter a character to Check it is Alphabet, Number or Symbol')
- checkAlphabetDigitORSymbol(userCharacter)
+//  var userCharacter = prompt('Enter a character to Check it is Alphabet, Number or Symbol')
+//  checkAlphabetDigitORSymbol(userCharacter)
 
 //  ---------------------------------------------------------------------------------------------------------
+
+// 10. Write a js program to check whether a character is uppercase or lowercase alphabet.
+
+function checkUpperOrLowerCase(character){
+  var result = character
+  if(result >= 'a' && result <= 'z'){
+     console.log(`"${result}" is a Lowercase Character`)
+  }
+   else if(result >= 'A' && result <= 'Z'){
+     console.log(`"${result}" is a Uppercase Character`)
+  }else{
+    console.log('Enter a Valid Value!')
+  }
+}
+
+var userData = prompt('Enter Alphabet to Check it is Upper OR LowerCase')
+checkUpperOrLowerCase(userData)
+
+// ---------------------------------------------------------------------------------------------------------
