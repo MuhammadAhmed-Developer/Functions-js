@@ -99,9 +99,25 @@
 
 // 6. Write a js program to check whether a year is leap year or not.
 
- var weatherLeapOrNot =+ prompt('Enter Year To Check It is Leap OR NOT')
- if(weatherLeapOrNot%4==0){
-   console.log(`Year ${weatherLeapOrNot} is a Leap Year`)
- }else{
-  console.log(`Year ${weatherLeapOrNot} is  Not a Leap Year`)
- }
+//  var yearLeapOrNot =+ prompt('Enter Year To Check It is Leap OR NOT')
+//  if(yearLeapOrNot%4==0){
+//    console.log(`Year ${yearLeapOrNot} is a Leap Year`)
+//  }else{
+//   console.log(`Year ${yearLeapOrNot} is  Not a Leap Year`)
+//  }
+
+ // ---------------------------------------------------------------------------------------------------------
+
+//  7. Write a js program to check whether a character is alphabet or not.
+
+// var weatherCharacter = prompt('Enter character to check it is alphabet or not ')
+// if(weatherCharacter >= 'a' && weatherCharacter <= 'z' || weatherCharacter >= 'A' && weatherCharacter <= 'Z'){
+//  console.log(`"${weatherCharacter}" is a Alphabet`)
+// }else{
+//   console.log(`"${weatherCharacter}" is not a alphabet`)
+// }
+
+ // ---------------------------------------------------------------------------------------------------------
+
+ 
+
