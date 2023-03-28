@@ -48,22 +48,40 @@
 // 3. Write a js program to check whether a number is negative, positive or zero.
 
 
-var weather =+ prompt('Enter Weather Temperature in Numbers')
-if(weather <= 3){
-  console.log(`Your Temperature is  '${weather}⁰C' its means weather is very cold`)
-}
- else if(weather <= 10){
-  console.log(`Your Temperature is  '${weather}⁰C' its means weather is cold`)
-}
- else if(weather <= 25){
-  console.log(`Your Temperature is  '${weather}⁰C' its means weather is Normal`)
-}
- else if(weather <= 40){
-  console.log(`Your Temperature is  '${weather}⁰C' its means weather is Hot`)
-}
- else if(weather > 40){
-  console.log(`Your Temperature is  '${weather}⁰C' its means weather is very Hot`)
-}
-else{
-   console.log("Enter Valid Value! Please Enter Temp in Numbers")
-}
+// var weather =+ prompt('Enter Weather Temperature in Numbers')
+// if(weather <= 3){
+//   console.log(`Your Temperature is  '${weather}⁰C' its means weather is very cold`)
+// }
+//  else if(weather <= 10){
+//   console.log(`Your Temperature is  '${weather}⁰C' its means weather is cold`)
+// }
+//  else if(weather <= 25){
+//   console.log(`Your Temperature is  '${weather}⁰C' its means weather is Normal`)
+// }
+//  else if(weather <= 40){
+//   console.log(`Your Temperature is  '${weather}⁰C' its means weather is Hot`)
+// }
+//  else if(weather > 40){
+//   console.log(`Your Temperature is  '${weather}⁰C' its means weather is very Hot`)
+// }
+// else{
+//    console.log("Enter Valid Value! Please Enter Temp in Numbers")
+// }
+
+
+// 4. Write a js program to check whether a number is divisible by 5 and 11 or not
+
+// var weatherNumber =+ prompt('Enter Temp')
+// if(weatherNumber%5 == 0){
+//    console.log(`Your Enter Number "${weatherNumber}"  is Divisible by 5`)
+// }
+//  else if(weatherNumber%11 == 0){
+//    console.log(`Your Enter Number "${weatherNumber}" is Divisible by 11`)
+// }else{
+//   console.log(`Your Enter Number "${weatherNumber}"  is Not Divisible by 5 OR 11`)
+// }
+
+
+// 5. Write a js program to check whether a number is even or odd.
+
+var weatherEvenOrOdd =+ prompt('Enter Temperature')
