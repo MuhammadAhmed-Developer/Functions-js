@@ -279,33 +279,83 @@
 
 // 15. Write a js program to input all sides of a triangle and check whether triangle is valid or not
 
- function makeTriangle(leftSide, rightSide, base){
+// function makeTriangle(leftSide, rightSide, base){
 
-    var left = leftSide
-    var right = rightSide
-    var baseValue = base
-    if(left == right && left == baseValue && right == left && right == baseValue && baseValue == left && baseValue == right ){
-        console.log('LeftSide= ', left)
-        console.log('RightSide= ', right)
-        console.log('Base= ', baseValue)
-        console.log("A triangle with all sides of equal length is called an 'equilateral triangle'")
-    }
-    else if(left== 90 || right == 90){
-        console.log("LeftSide= ", left)
-        console.log("RightSide= ", right)
-        console.log("base= ", baseValue)
-        console.log('A triangle with one angle measuring 90 degrees is called a "right-angled triangle"')
-    }else{
-        console.log('Please Enter Same Values to Create "equilateral triangle"')
-        console.log('Please Enter one side 90  to Create "right-angled triangle"')
-    }
+//     var left = leftSide
+//     var right = rightSide
+//     var baseValue = base
+//     if(left + right + baseValue == 180 ){
+//         console.log('LeftSide= ', left)
+//         console.log('RightSide= ', right)
+//         console.log('Base= ', baseValue)
+//         console.log(`It is a Valid Triangle because ${left} + ${right} + ${baseValue} = 180`)
+//     }
+//     else{
+//         console.log(`It is a Invalid Triangle ${left} + ${right} + ${baseValue} is not equal to 180  `)
+//     }
 
 
 
- }
-var UserValues1 =+ prompt('ENTER Left side angle')
-var UserValues2 =+ prompt('ENTER Right side angle')
-var UserValues3 =+ prompt('ENTER base')
-makeTriangle(UserValues1,UserValues2,UserValues3)
+//  }
+// var UserValues1 =+ prompt('ENTER Left side angle')
+// var UserValues2 =+ prompt('ENTER Right side angle')
+// var UserValues3 =+ prompt('ENTER base')
+// makeTriangle(UserValues1,UserValues2,UserValues3)
+
+// ----------------------------------------------------------------------------------------------------
 
 
+// 16. Write a js program to check whether the triangle is equilateral, isosceles or scalene triangle.
+
+//  function makeTriangle(leftSide, rightSide, base){
+
+//     var left = leftSide
+//     var right = rightSide
+//     var baseValue = base
+//     if(left == right && left == baseValue && right == left && right == baseValue && baseValue == left && baseValue == right ){
+//         console.log('LeftSide= ', left)
+//         console.log('RightSide= ', right)
+//         console.log('Base= ', baseValue)
+//         console.log("A triangle with all sides of equal length is called an 'equilateral triangle'")
+//     }
+//     else if(left== 90 || right == 90){
+//         console.log("LeftSide= ", left)
+//         console.log("RightSide= ", right)
+//         console.log("base= ", baseValue)
+//         console.log('A triangle with one angle measuring 90 degrees is called a "right-angled triangle"')
+//     }else{
+//         console.log('Please Enter Same Values to Create "equilateral triangle"')
+//         console.log('Please Enter one side 90  to Create "right-angled triangle"')
+//     }
+
+
+
+//  }
+// var UserValues1 =+ prompt('ENTER Left side angle')
+// var UserValues2 =+ prompt('ENTER Right side angle')
+// var UserValues3 =+ prompt('ENTER base')
+// makeTriangle(UserValues1,UserValues2,UserValues3)
+
+// ====================================================================================================
+
+// 17. Write a js program to find all roots of a quadratic equation.
+
+
+
+
+// ================================================================================================
+
+// 18. Write a js program to calculate profit or loss.
+
+function profitOrLoss(userbuyPrice, usersalePrice){
+
+var user = userbuyPrice
+var sale = usersalePrice
+if(){
+    
+}
+
+}
+var markedPrice =+ prompt('Enter Marked Price')
+var salePrice =+ prompt('Enter sale price')
+profitOrLoss(markedPrice, salePrice)
