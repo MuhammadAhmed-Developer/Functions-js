@@ -158,19 +158,133 @@
 
 // 10. Write a js program to check whether a character is uppercase or lowercase alphabet.
 
-function checkUpperOrLowerCase(character){
-  var result = character
-  if(result >= 'a' && result <= 'z'){
-     console.log(`"${result}" is a Lowercase Character`)
-  }
-   else if(result >= 'A' && result <= 'Z'){
-     console.log(`"${result}" is a Uppercase Character`)
-  }else{
-    console.log('Enter a Valid Value!')
-  }
-}
+// function checkUpperOrLowerCase(character){
+//   var result = character
+//   if(result >= 'a' && result <= 'z'){
+//      console.log(`"${result}" is a Lowercase Character`)
+//   }
+//    else if(result >= 'A' && result <= 'Z'){
+//      console.log(`"${result}" is a Uppercase Character`)
+//   }else{
+//     console.log('Enter a Valid Value!')
+//   }
+// }
 
-var userData = prompt('Enter Alphabet to Check it is Upper OR LowerCase')
-checkUpperOrLowerCase(userData)
+// var userData = prompt('Enter Alphabet to Check it is Upper OR LowerCase')
+// checkUpperOrLowerCase(userData)
 
 // ---------------------------------------------------------------------------------------------------------
+
+// 11. Write a js program to input week number and print week day.
+
+//   function weekNumber(weeekDay){
+
+//     var result = weeekDay
+//     if(result == 1){
+//        console.log(`${result} is a Monday`)
+//     }
+//     else if(result == 2){
+//        console.log(`${result} is a Tuesday`)
+//     }
+//     else if(result == 3){
+//        console.log(`${result} is a Wednesday`)
+//     }
+//     else if(result == 4){
+//        console.log(`${result} is a Thursday`)
+//     }
+//     else if(result == 5){
+//        console.log(`${result} is a Friday`)
+//     }
+//     else if(result == 6){
+//        console.log(`${result} is a Saturday`)
+//     }
+//     else if(result == 7){
+//        console.log(`${result} is a Sunday`)
+//     }else{
+//         console.log('PLease Enter Valid Number Enter 1 To 7 Only! ')
+//     }
+
+//   }
+   
+//   var getWeekNumber =+ prompt('Enter Number to see day Name, Enter 1 to 7')
+//   weekNumber(getWeekNumber)
+
+// ----------------------------------------------------------------------------------------------------------
+
+// 12. Write a js program to input month number and print number of days in that month.
+
+// function monthName(month){
+
+//     var result = month
+    
+//     if(result == "january" || result == "January"){
+//        console.log(`${result} have 31 Days`)
+//     }
+//     else if(result == "february" || result == "February"){
+//        console.log(`${result} have 28 Days`)
+//     }
+//     else if(result == "march" || result == "March"){
+//        console.log(`${result} have 31 Days`)
+//     }
+//     else if(result == "april" || result == "April"){
+//        console.log(`${result} have 30 Days`)
+//     }
+//     else if(result == "may" || result == "May"){
+//        console.log(`${result} have 31 Days`)
+//     }
+//     else if(result == "june" || result == "June"){
+//        console.log(`${result} have 30 Days`)
+//     }
+//     else if(result == "july" || result == "July"){
+//        console.log(`${result} have 31 Days`)
+//     }
+//     else if(result == "august" || result == "August"){
+//        console.log(`${result} have 30 Days`)
+//     }
+//     else if(result == "september" || result == "September"){
+//        console.log(`${result} have 31 Days`)
+//     }
+//     else if(result == "october" || result == "October"){
+//        console.log(`${result} have 30 Days`)
+//     }
+//     else if(result == "november" || result == "November"){
+//        console.log(`${result} have 31 Days`)
+//     }
+//     else if(result == "december" || result == "December"){
+//        console.log(`${result} have 30 Days`)
+//     }else{
+//         console.log('Please Enter Correctly! ')
+//     }
+
+// }
+
+// var getMonthName = prompt('Enter Any Month name to See Number of Days!')
+// monthName(getMonthName)
+
+// c----------------------------------------------------------------------------------------------------------
+
+// 13. Write a js program to count total number of notes in given amount
+
+//  function totalNotes(amount){
+//     var result = amount/10
+//     // var resultNotes = result/10
+//     if(result == 0){
+//         console.log('result')
+//     }
+//  }
+// var userAmount =+ prompt('Enter Your Amount to Get Numbers of Notes')
+// totalNotes(userAmount)
+
+// ----------------------------------------------------------------------------------------------------------
+
+// 15. Write a js program to input all sides of a triangle and check whether triangle is valid or not
+
+ function makeTriangle(values){
+
+ }
+var UserValues =+ ('ENTER Left side angle')
+var UserValues =+ ('ENTER Right side angle')
+var UserValues =+ ('ENTER base')
+makeTriangle()
+
+
