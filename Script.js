@@ -279,12 +279,14 @@
 
 // 15. Write a js program to input all sides of a triangle and check whether triangle is valid or not
 
- function makeTriangle(values){
+ function makeTriangle(value1, value2, value3){
+
+    
 
  }
-var UserValues =+ ('ENTER Left side angle')
-var UserValues =+ ('ENTER Right side angle')
-var UserValues =+ ('ENTER base')
-makeTriangle()
+var UserValues1 =+ ('ENTER Left side angle')
+var UserValues2 =+ ('ENTER Right side angle')
+var UserValues3 =+ ('ENTER base')
+makeTriangle(UserValues1,UserValues2,UserValues3)
 
 
