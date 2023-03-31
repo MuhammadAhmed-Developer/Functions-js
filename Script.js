@@ -351,11 +351,28 @@ function profitOrLoss(userbuyPrice, usersalePrice){
 
 var user = userbuyPrice
 var sale = usersalePrice
-if(){
-    
+var result = sale - user
+if(result >= 0){
+        console.log("Market Price = ", user )
+        console.log("Sale Price = ", sale )
+        console.log("Your Profit = ", result , " Rupees")
+}else{
+    console.log("Market Price = ", user )
+    console.log("Sale Price = ", sale )
+    console.log("Your Loss = ", result , " Rupees")
 }
 
 }
-var markedPrice =+ prompt('Enter Marked Price')
-var salePrice =+ prompt('Enter sale price')
+var markedPrice =+ prompt('Enter Marked Price in Rupees')
+var salePrice =+ prompt('Enter sale price in Rupees')
 profitOrLoss(markedPrice, salePrice)
+
+// ====================================================================================================
+
+// 19. Write a js program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer. Calculate percentage and grade according to following:
+// Percentage >= 90% : Grade A
+// Percentage >= 80% : Grade B
+// Percentage >= 70% : Grade C
+// Percentage >= 60% : Grade D
+// Percentage >= 40% : Grade E
+// Percentage < 40% : Grade F
