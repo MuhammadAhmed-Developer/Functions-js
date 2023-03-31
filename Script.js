@@ -347,25 +347,25 @@
 
 // 18. Write a js program to calculate profit or loss.
 
-function profitOrLoss(userbuyPrice, usersalePrice){
+// function profitOrLoss(userbuyPrice, usersalePrice){
 
-var user = userbuyPrice
-var sale = usersalePrice
-var result = sale - user
-if(result >= 0){
-        console.log("Market Price = ", user )
-        console.log("Sale Price = ", sale )
-        console.log("Your Profit = ", result , " Rupees")
-}else{
-    console.log("Market Price = ", user )
-    console.log("Sale Price = ", sale )
-    console.log("Your Loss = ", result , " Rupees")
-}
+// var user = userbuyPrice
+// var sale = usersalePrice
+// var result = sale - user
+// if(result >= 0){
+//         console.log("Market Price = ", user )
+//         console.log("Sale Price = ", sale )
+//         console.log("Your Profit = ", result , " Rupees")
+// }else{
+//     console.log("Market Price = ", user )
+//     console.log("Sale Price = ", sale )
+//     console.log("Your Loss = ", result , " Rupees")
+// }
 
-}
-var markedPrice =+ prompt('Enter Marked Price in Rupees')
-var salePrice =+ prompt('Enter sale price in Rupees')
-profitOrLoss(markedPrice, salePrice)
+// }
+// var markedPrice =+ prompt('Enter Marked Price in Rupees')
+// var salePrice =+ prompt('Enter sale price in Rupees')
+// profitOrLoss(markedPrice, salePrice)
 
 // ====================================================================================================
 
@@ -376,3 +376,64 @@ profitOrLoss(markedPrice, salePrice)
 // Percentage >= 60% : Grade D
 // Percentage >= 40% : Grade E
 // Percentage < 40% : Grade F
+
+function gradeAndPercentege(phy,chem,bio,math,comp){
+
+    var physicsMarks = phy
+    var ChemMarks = chem
+    var bioMarks = bio
+    var mathMarks = math
+    var compMarks = comp
+    var ObtainedMarks = physicsMarks + ChemMarks + bioMarks + mathMarks + compMarks
+    var getPercentege = (physicsMarks + ChemMarks + bioMarks + mathMarks + compMarks) /500 * 100
+    // console.log(TotalMarks)
+    if(ObtainedMarks > 500){
+       alert('Please Enter valid Values Total Marks of Every subject is 100 ')
+    }
+    else if(getPercentege >= 90){
+        console.log(`Obtained Marks = ${ObtainedMarks}`)
+        console.log(`Total Marks = 500`)
+        console.log(`Your Percentege = ${getPercentege}%`)
+        console.log(`Your Grade = A`)
+    }
+    else if(getPercentege >= 80){
+        console.log(`Obtained Marks = ${ObtainedMarks}`)
+        console.log(`Total Marks = 500`)
+        console.log(`Your Percentege = ${getPercentege}%`)
+        console.log(`Your Grade = B`)
+    }
+    else if(getPercentege >= 70){
+        console.log(`Obtained Marks = ${ObtainedMarks}`)
+        console.log(`Total Marks = 500`)
+        console.log(`Your Percentege = ${getPercentege}%`)
+        console.log(`Your Grade = C`)
+    }
+    else if(getPercentege >= 60){
+        console.log(`Obtained Marks = ${ObtainedMarks}`)
+        console.log(`Total Marks = 500`)
+        console.log(`Your Percentege = ${getPercentege}%`)
+        console.log(`Your Grade = D`)
+    }
+    else if(getPercentege >= 50){
+        console.log(`Obtained Marks = ${ObtainedMarks}`)
+        console.log(`Total Marks = 500`)
+        console.log(`Your Percentege = ${getPercentege}%`)
+        console.log(`Your Grade = E`)
+    }
+    else if(getPercentege <= 40){
+        console.log(`Obtained Marks = ${ObtainedMarks}`)
+        console.log(`Total Marks = 500`)
+        console.log(`Your Percentege = ${getPercentege}%`)
+        console.log(`Your Grade = F`)
+    }else{
+        console.log('Enter a valid value!')
+    }
+
+}
+
+var Physics =+ prompt('Your Physics Marks?')
+var Chemistry =+ prompt('Your Chemistry Marks?')
+var Biology =+ prompt('Your Biology Marks?')
+var Math =+ prompt('Your Math Marks?')
+var Computer =+ prompt('Your Computer Marks?')
+gradeAndPercentege(Physics,Chemistry,Biology,Math,Computer)
