@@ -377,63 +377,88 @@
 // Percentage >= 40% : Grade E
 // Percentage < 40% : Grade F
 
-function gradeAndPercentege(phy,chem,bio,math,comp){
+// function gradeAndPercentege(phy,chem,bio,math,comp){
 
-    var physicsMarks = phy
-    var ChemMarks = chem
-    var bioMarks = bio
-    var mathMarks = math
-    var compMarks = comp
-    var ObtainedMarks = physicsMarks + ChemMarks + bioMarks + mathMarks + compMarks
-    var getPercentege = (physicsMarks + ChemMarks + bioMarks + mathMarks + compMarks) /500 * 100
-    // console.log(TotalMarks)
-    if(ObtainedMarks > 500){
-       alert('Please Enter valid Values Total Marks of Every subject is 100 ')
-    }
-    else if(getPercentege >= 90){
-        console.log(`Obtained Marks = ${ObtainedMarks}`)
-        console.log(`Total Marks = 500`)
-        console.log(`Your Percentege = ${getPercentege}%`)
-        console.log(`Your Grade = A`)
-    }
-    else if(getPercentege >= 80){
-        console.log(`Obtained Marks = ${ObtainedMarks}`)
-        console.log(`Total Marks = 500`)
-        console.log(`Your Percentege = ${getPercentege}%`)
-        console.log(`Your Grade = B`)
-    }
-    else if(getPercentege >= 70){
-        console.log(`Obtained Marks = ${ObtainedMarks}`)
-        console.log(`Total Marks = 500`)
-        console.log(`Your Percentege = ${getPercentege}%`)
-        console.log(`Your Grade = C`)
-    }
-    else if(getPercentege >= 60){
-        console.log(`Obtained Marks = ${ObtainedMarks}`)
-        console.log(`Total Marks = 500`)
-        console.log(`Your Percentege = ${getPercentege}%`)
-        console.log(`Your Grade = D`)
-    }
-    else if(getPercentege >= 50){
-        console.log(`Obtained Marks = ${ObtainedMarks}`)
-        console.log(`Total Marks = 500`)
-        console.log(`Your Percentege = ${getPercentege}%`)
-        console.log(`Your Grade = E`)
-    }
-    else if(getPercentege <= 40){
-        console.log(`Obtained Marks = ${ObtainedMarks}`)
-        console.log(`Total Marks = 500`)
-        console.log(`Your Percentege = ${getPercentege}%`)
-        console.log(`Your Grade = F`)
-    }else{
-        console.log('Enter a valid value!')
-    }
+//     var physicsMarks = phy
+//     var ChemMarks = chem
+//     var bioMarks = bio
+//     var mathMarks = math
+//     var compMarks = comp
+//     var ObtainedMarks = physicsMarks + ChemMarks + bioMarks + mathMarks + compMarks
+//     var getPercentege = (physicsMarks + ChemMarks + bioMarks + mathMarks + compMarks) /500 * 100
+//     // console.log(TotalMarks)
+//     if(ObtainedMarks > 500){
+//        alert('Please Enter valid Values Total Marks of Every subject is 100 ')
+//     }
+//     else if(getPercentege >= 90){
+//         console.log(`Obtained Marks = ${ObtainedMarks}`)
+//         console.log(`Total Marks = 500`)
+//         console.log(`Your Percentege = ${getPercentege}%`)
+//         console.log(`Your Grade = A`)
+//     }
+//     else if(getPercentege >= 80){
+//         console.log(`Obtained Marks = ${ObtainedMarks}`)
+//         console.log(`Total Marks = 500`)
+//         console.log(`Your Percentege = ${getPercentege}%`)
+//         console.log(`Your Grade = B`)
+//     }
+//     else if(getPercentege >= 70){
+//         console.log(`Obtained Marks = ${ObtainedMarks}`)
+//         console.log(`Total Marks = 500`)
+//         console.log(`Your Percentege = ${getPercentege}%`)
+//         console.log(`Your Grade = C`)
+//     }
+//     else if(getPercentege >= 60){
+//         console.log(`Obtained Marks = ${ObtainedMarks}`)
+//         console.log(`Total Marks = 500`)
+//         console.log(`Your Percentege = ${getPercentege}%`)
+//         console.log(`Your Grade = D`)
+//     }
+//     else if(getPercentege >= 50){
+//         console.log(`Obtained Marks = ${ObtainedMarks}`)
+//         console.log(`Total Marks = 500`)
+//         console.log(`Your Percentege = ${getPercentege}%`)
+//         console.log(`Your Grade = E`)
+//     }
+//     else if(getPercentege <= 40){
+//         console.log(`Obtained Marks = ${ObtainedMarks}`)
+//         console.log(`Total Marks = 500`)
+//         console.log(`Your Percentege = ${getPercentege}%`)
+//         console.log(`Your Grade = F`)
+//     }else{
+//         console.log('Enter a valid value!')
+//     }
+
+// }
+
+// var Physics =+ prompt('Your Physics Marks?')
+// var Chemistry =+ prompt('Your Chemistry Marks?')
+// var Biology =+ prompt('Your Biology Marks?')
+// var Math =+ prompt('Your Math Marks?')
+// var Computer =+ prompt('Your Computer Marks?')
+// gradeAndPercentege(Physics,Chemistry,Biology,Math,Computer)
+
+// ====================================================================================================
+
+
+// . Write a js program to input basic salary of an employee and calculate its Gross salary according to following:
+// Basic Salary <= 10000 : HRA = 20%, DA = 80%
+// Basic Salary <= 20000 : HRA = 25%, DA = 90%
+// Basic Salary > 20000 : HRA = 30%, DA = 95%
+
+function employeeSalary(){
 
 }
+var userData =+ prompt('Enter Your Salary')
 
-var Physics =+ prompt('Your Physics Marks?')
-var Chemistry =+ prompt('Your Chemistry Marks?')
-var Biology =+ prompt('Your Biology Marks?')
-var Math =+ prompt('Your Math Marks?')
-var Computer =+ prompt('Your Computer Marks?')
-gradeAndPercentege(Physics,Chemistry,Biology,Math,Computer)
+
+
+
+// ====================================================================================================
+
+// 21. Write a js program to input electricity unit charges and calculate total electricity bill according to the given condition:
+// For first 50 units Rs. 0.50/unit
+// For next 100 units Rs. 0.75/unit
+// For next 100 units Rs. 1.20/unit
+// For unit above 250 Rs. 1.50/unit
+// An additional surcharge of 20% is added to the bill
