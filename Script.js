@@ -265,15 +265,18 @@
 
 // 13. Write a js program to count total number of notes in given amount
 
-//  function totalNotes(amount){
-//     var result = amount/10
-//     // var resultNotes = result/10
-//     if(result == 0){
-//         console.log('result')
-//     }
-//  }
-// var userAmount =+ prompt('Enter Your Amount to Get Numbers of Notes')
-// totalNotes(userAmount)
+ function totalNotes(amount){
+    var result = amount
+    var resultNotes = parseInt( result/10)
+    // console.log(resultNotes)
+    if(resultNotes){
+        console.log(`${result}Rs have ${resultNotes} notes`)
+    }else{
+        console.log('Enter a Valid Value!')
+    }
+ }
+var userAmount =+ prompt('Enter Your Amount to Get Numbers of 10Rs Notes')
+totalNotes(userAmount)
 
 // ----------------------------------------------------------------------------------------------------------
 
@@ -449,7 +452,7 @@
 function employeeSalary(){
 
 }
-var userData =+ prompt('Enter Your Salary')
+// var userData =+ prompt('Enter Your Salary')
 
 
 
