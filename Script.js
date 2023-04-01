@@ -273,6 +273,7 @@
         console.log(`${result}Rs have ${resultNotes} notes`)
     }else{
         console.log('Enter a Valid Value!')
+        // consolegit comm
     }
  }
 var userAmount =+ prompt('Enter Your Amount to Get Numbers of 10Rs Notes')
