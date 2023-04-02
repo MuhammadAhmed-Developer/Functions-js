@@ -343,9 +343,12 @@
 // ====================================================================================================
 
 // 17. Write a js program to find all roots of a quadratic equation.
-function findRoots(){
-    
-}
+// function findRoots(){
+//  if(){
+
+//  }
+
+// } 
 
 
 
@@ -452,11 +455,14 @@ function findRoots(){
 // Basic Salary <= 20000 : HRA = 25%, DA = 90%
 // Basic Salary > 20000 : HRA = 30%, DA = 95%
 
-function employeeSalary(){
+// function employeeSalary(salary){
 
-}
+//     var result = salary
+//     var calculate  = result 
+
+// }
 // var userData =+ prompt('Enter Your Salary')
-
+// employeeSalary(userData)
 
 
 
@@ -468,3 +474,57 @@ function employeeSalary(){
 // For next 100 units Rs. 1.20/unit
 // For unit above 250 Rs. 1.50/unit
 // An additional surcharge of 20% is added to the bill
+
+function countBill(units){
+
+    var result = units 
+    
+    if(result < 50  ){
+        var unitsCount = result * 0.50 
+        var totalBill = 20/100 + unitsCount
+        // console.log(tex)
+        // console.log(unitsCount)
+      console.log(`Price of One Unit = 0.50`)
+      console.log(`Your Used Units = ${result}`)
+      console.log(`additional surcharge = 20%`)
+      console.log(`Your Bill = ${totalBill} Rs`)
+    }
+    else if(result < 100  ){
+        var unitsCount = result * 0.70 
+        var totalBill = 20/100 + unitsCount
+        // console.log(tex)
+        // console.log(unitsCount)
+      console.log(`Price of One Unit = 0.70`)
+      console.log(`Your Used Units = ${result}`)
+      console.log(`additional surcharge = 20%`)
+      console.log(`Your Bill = ${totalBill} Rs`)
+    }
+    else if(result < 200  ){
+        var unitsCount = result * 1.20 
+        var totalBill = 20/100 + unitsCount
+        // console.log(tex)
+        // console.log(unitsCount)
+      console.log(`Price of One Unit = 1.20`)
+      console.log(`Your Used Units = ${result}`)
+      console.log(`additional surcharge = 20%`)
+      console.log(`Your Bill = ${totalBill} Rs`)
+    }
+    else if(result > 200  ){
+        var unitsCount = result * 1.50 
+        var totalBill = 20/100 + unitsCount
+        // console.log(tex)
+        // console.log(unitsCount)
+      console.log(`Price of One Unit = 1.50`)
+      console.log(`Your Used Units = ${result}`)
+      console.log(`additional surcharge = 20%`)
+      console.log(`Your Bill = ${totalBill} Rs`)
+    }
+ else{
+    console.log('Enter a valid value')
+ }
+
+
+
+}
+var units =+ prompt('Enter Units To generate Bill')
+countBill(units)
