@@ -344,9 +344,7 @@
 
 // 17. Write a js program to find all roots of a quadratic equation.
 // function findRoots(){
-//  if(){
 
-//  }
 
 // } 
 
